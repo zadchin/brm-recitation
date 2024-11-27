@@ -32,8 +32,6 @@ alpha_refined$total
 
 
 # Perform Factor Analysis
-fa_result <- fa(refined_data, nfactors = 2, rotate = "varimax")  # Adjust nfactors if needed
-
-summary(fa_result)
+fa_result <- fa(refined_data, nfactors = 2, rotate = "varimax")
 
 fa_result$loadings
